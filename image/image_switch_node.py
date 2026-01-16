@@ -1,5 +1,5 @@
 class ImageSwitchNode:
-    CATEGORY = "ZKZ"
+    CATEGORY = "ZKZ/Image"
     RETURN_TYPES = ("IMAGE","IMAGE",)
     RETURN_NAMES = ("image_1", "image_2",)
 

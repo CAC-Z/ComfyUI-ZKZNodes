@@ -18,7 +18,7 @@ class SmartResizeAndPad:
     RETURN_TYPES = ("IMAGE", "MASK")
     RETURN_NAMES = ("image", "mask")
     FUNCTION = "process"
-    CATEGORY = "ZKZ"
+    CATEGORY = "ZKZ/Image"
 
     def process(self, image, margin, mask=None):
         # 固定的内部参数，避免在 UI 中暴露复杂度

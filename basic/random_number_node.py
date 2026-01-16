@@ -21,7 +21,7 @@ class RandomNumberNode:
     FUNCTION = "generate_random_number"
 
     # 将其分类，方便在菜单中查找
-    CATEGORY = "ZKZ" # 您可以根据需要修改分类名称
+    CATEGORY = "ZKZ/Basic" # 您可以根据需要修改分类名称
 
     def generate_random_number(self, seed, min_value, max_value):
         # 确保 min_value 不大于 max_value

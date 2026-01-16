@@ -16,7 +16,7 @@ class CropTransparentAndResizeNode:
 
     RETURN_TYPES = ("IMAGE", "MASK")
     FUNCTION = "crop_and_resize"
-    CATEGORY = "ZKZ"
+    CATEGORY = "ZKZ/Image"
 
     def crop_and_resize(self, image, max_size, margin=0, resize_mode="fit_longest"):
         # 将输入的张量转换为PIL图像

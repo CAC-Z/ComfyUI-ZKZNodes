@@ -24,7 +24,7 @@ class ValidatePath:
     RETURN_TYPES = ("STRING",)
     RETURN_NAMES = ("path",)
     FUNCTION = "validate"
-    CATEGORY = "ZKZ/Utils"
+    CATEGORY = "ZKZ/Basic"
 
     def validate(self, path_string):
         if not path_string:
@@ -41,7 +41,7 @@ TEXT_TYPE = "STRING"
 
 class SimpleDB:
     def __init__(self):
-        base_dir = os.path.dirname(os.path.realpath(__file__))
+        base_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
         self.db_path = os.path.join(base_dir, "batch_counter.json")
         self.load_db()
 
@@ -98,7 +98,7 @@ class Simple_Load_Image_Batch:
     RETURN_TYPES = ("IMAGE", "MASK", TEXT_TYPE, "STRING", "STRING")
     RETURN_NAMES = ("image", "mask", "filename_text", "text", "total_images")
     FUNCTION = "load_batch_images"
-    CATEGORY = "ZKZ"
+    CATEGORY = "ZKZ/Image"
 
     def load_batch_images(self, path, pattern='*', loop="true", allow_RGBA_output='false', reset=0):
         if not path or not os.path.exists(path):

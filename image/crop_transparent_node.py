@@ -15,7 +15,7 @@ class CropTransparentImageNode:
 
     RETURN_TYPES = ("IMAGE", "MASK")
     FUNCTION = "crop_transparent_image"
-    CATEGORY = "ZKZ"
+    CATEGORY = "ZKZ/Image"
 
     def crop_transparent_image(self, image, margin=0):
         # 将输入的张量转换为PIL图像

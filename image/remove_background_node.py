@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 
 class VrchIsolateColorNode:  # 类名改为更贴切的名称
-    CATEGORY = "ZKZ"
+    CATEGORY = "ZKZ/Image"
     RETURN_TYPES = ("IMAGE",)
     OUTPUT_NODE = True
     FUNCTION = "isolate_color" # 函数名也修改

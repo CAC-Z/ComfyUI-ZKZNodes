@@ -40,7 +40,7 @@ class SequentialReaderNode:
     RETURN_TYPES = ("STRING",)
     RETURN_NAMES = ("text",)
     FUNCTION = "read_sequential_line"
-    CATEGORY = "ZKZ"
+    CATEGORY = "ZKZ/Text"
 
     def read_sequential_line(self, file_path, reset):
         """

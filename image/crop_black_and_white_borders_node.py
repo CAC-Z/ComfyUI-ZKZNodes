@@ -16,7 +16,7 @@ class CropBlackAndWhiteBordersNode:
 
     RETURN_TYPES = ("IMAGE",)
     FUNCTION = "crop_borders"
-    CATEGORY = "ZKZ"
+    CATEGORY = "ZKZ/Image"
 
     def crop_borders(self, image, black_threshold=10, white_threshold=245):
         # 将输入的张量转换为PIL图像

@@ -22,7 +22,7 @@ class UniversalTextReplacer:
     RETURN_TYPES = ("STRING",)
     RETURN_NAMES = ("处理后的文本",)
     FUNCTION = "process_text"
-    CATEGORY = "ZKZ"
+    CATEGORY = "ZKZ/Text"
 
     def process_text(self, text_input, replacement_rules="", use_regex=False):
         if not text_input:

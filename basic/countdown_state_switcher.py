@@ -30,7 +30,7 @@ class ImpactCountdownNodeStateSwitcher:
         }
 
     FUNCTION = "doit"
-    CATEGORY = "ZKZ"  # 分类
+    CATEGORY = "ZKZ/Basic"  # 分类
     RETURN_TYPES = (any_typ, "INT")
     RETURN_NAMES = ("signal_opt", "count")
     OUTPUT_NODE = True

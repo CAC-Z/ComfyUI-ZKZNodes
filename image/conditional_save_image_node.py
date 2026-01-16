@@ -6,7 +6,7 @@ from datetime import datetime, date
 import folder_paths
 
 class ConditionalSaveImageNode:
-    CATEGORY = "ZKZ"
+    CATEGORY = "ZKZ/Image"
 
     RETURN_TYPES = ("IMAGE",)
     RETURN_NAMES = ("image",)

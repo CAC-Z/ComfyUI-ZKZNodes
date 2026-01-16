@@ -20,7 +20,7 @@ class ImageProcessor:
     RETURN_TYPES = ("IMAGE", "MASK")
     RETURN_NAMES = ("image", "mask")
     FUNCTION = "process_images"
-    CATEGORY = "ZKZ"
+    CATEGORY = "ZKZ/Image"
 
     def process_images(self, images, final_width, final_height, max_top_space, max_side_space, allow_RGBA_output):
         """

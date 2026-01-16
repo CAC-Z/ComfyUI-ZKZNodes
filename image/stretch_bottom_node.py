@@ -19,7 +19,7 @@ class StretchBottomNode:
     RETURN_TYPES = ("IMAGE",)
     RETURN_NAMES = ("image",)
     FUNCTION = "stretch_images"
-    CATEGORY = "ZKZ"
+    CATEGORY = "ZKZ/Image"
 
     def stretch_images(self, images, stretch_pct, allow_RGBA_output):
         output_images = []

@@ -23,7 +23,7 @@ class ZKZSaveTextNode:
 
     RETURN_TYPES = ("STRING",)
     FUNCTION = "save_text"
-    CATEGORY = "ZKZ"
+    CATEGORY = "ZKZ/Text"
 
     def save_text(
         self,

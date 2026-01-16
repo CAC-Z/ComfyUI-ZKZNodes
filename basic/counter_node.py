@@ -32,7 +32,7 @@ class CounterNode:
     FUNCTION = "execute"
 
     # 定义节点在菜单中的分类
-    CATEGORY = "ZKZ"
+    CATEGORY = "ZKZ/Basic"
 
     def execute(self, rule, digits, start_value, step, seed):
         """

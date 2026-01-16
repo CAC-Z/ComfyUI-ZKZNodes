@@ -34,7 +34,7 @@ class VrchCountdownQueueControlNode:
     RETURN_TYPES = ("IMAGE", "INT",)
     RETURN_NAMES = ("output", "count",)
     FUNCTION = "change_queue_mode"
-    CATEGORY = "ZKZ"
+    CATEGORY = "ZKZ/Basic"
     OUTPUT_NODE = True
 
     def change_queue_mode(self, input, queue_option, countdown_total, count, enabled, unique_id=None):
