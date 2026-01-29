@@ -25,7 +25,7 @@ class VrchSaveImageNode:
         }
     RETURN_TYPES = ("IMAGE",)
     FUNCTION = "save_image"
-    CATEGORY = "ZKZ/Image"
+    CATEGORY = "ZKZ/Image Tools"
 
     def save_image(self, image, base_save_path, filename_prefix, filename_suffix, file_type, overwrite_if_exists, folder_suffix, use_date_folder, use_date_in_filename, use_time_in_filename):
         # --- 路径构建部分 (保持不变) ---

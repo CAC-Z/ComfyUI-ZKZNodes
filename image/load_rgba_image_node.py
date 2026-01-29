@@ -26,7 +26,7 @@ class LoadRGBALocalOrURL:
     RETURN_TYPES = ("IMAGE", "MASK")
     RETURN_NAMES = ("image_rgba", "mask_alpha")
     FUNCTION = "load_image_main"
-    CATEGORY = "ZKZ/Image"
+    CATEGORY = "ZKZ/Image Tools"
 
     def _empty_result(self):
         image_tensor_rgba = torch.zeros((1, 1, 1, 4), dtype=torch.float32)

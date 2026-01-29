@@ -19,7 +19,7 @@ class ImageSplitterByTransparency:
 
     RETURN_TYPES = ("IMAGE",)
     FUNCTION = "split_image"
-    CATEGORY = "ZKZ/Image" # 与你的保存节点保持一致的分类
+    CATEGORY = "ZKZ/Image Tools" # 与你的保存节点保持一致的分类
 
     # 更新函数定义以接收新参数
     def split_image(self, image, min_width, min_height, alpha_threshold):

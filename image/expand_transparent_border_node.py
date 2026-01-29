@@ -19,7 +19,7 @@ class ExpandTransparentBorderNode:
     RETURN_TYPES = ("IMAGE", "MASK")
     RETURN_NAMES = ("expanded_image", "expanded_mask")
     FUNCTION = "expand_border"
-    CATEGORY = "ZKZ/Image"
+    CATEGORY = "ZKZ/Image Tools"
 
     def expand_border(self, image, expand_top, expand_bottom, expand_left, expand_right):
         pil_img = tensor_to_pil(image[0])  # 假设输入为单张图像

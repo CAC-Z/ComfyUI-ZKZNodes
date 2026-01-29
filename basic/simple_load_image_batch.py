@@ -98,7 +98,7 @@ class Simple_Load_Image_Batch:
     RETURN_TYPES = ("IMAGE", "MASK", TEXT_TYPE, "STRING", "STRING")
     RETURN_NAMES = ("image", "mask", "filename_text", "text", "total_images")
     FUNCTION = "load_batch_images"
-    CATEGORY = "ZKZ/Image"
+    CATEGORY = "ZKZ/Image Tools"
 
     def load_batch_images(self, path, pattern='*', loop="true", allow_RGBA_output='false', reset=0):
         if not path or not os.path.exists(path):
